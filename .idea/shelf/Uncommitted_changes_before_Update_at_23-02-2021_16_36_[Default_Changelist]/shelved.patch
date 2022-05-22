@@ -1,0 +1,42 @@
+Index: src/main/java/com/example/studentportal/api/ReportController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.studentportal.api;\r\n\r\n\r\nimport com.example.studentportal.model.Report;\r\nimport com.example.studentportal.service.ReportService;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.lang.NonNull;\r\nimport org.springframework.security.access.prepost.PreAuthorize;\r\nimport org.springframework.web.bind.annotation.*;\r\nimport org.springframework.web.multipart.MultipartFile;\r\n\r\nimport javax.validation.Valid;\r\nimport java.io.IOException;\r\nimport java.util.List;\r\nimport java.util.Optional;\r\n\r\n@RestController\r\n@RequestMapping(\"report\")\r\n@CrossOrigin(origins = \"*\", maxAge = 3600)\r\npublic class ReportController {\r\n\r\n    @Autowired\r\n    ReportService reportService;\r\n\r\n    @PostMapping\r\n    @PreAuthorize(\"hasRole('STUDENT')\")\r\n    public int addReport(@ModelAttribute(value = \"file\") MultipartFile file,@ModelAttribute(value = \"report\") Report r){\r\n        try {\r\n            System.out.println(r.getReportDate());\r\n            return reportService.addReport(file,r);\r\n        } catch (IOException e) {\r\n            e.printStackTrace();\r\n            return 0;\r\n        }\r\n    }\r\n\r\n    @GetMapping(path = \"{id}\")\r\n    @PreAuthorize(\"hasRole('TEACHER') or hasRole('STUDENT')\")\r\n    public Report getReportById(@PathVariable(\"id\") String id){\r\n        return reportService.findReportById(id);\r\n    }\r\n\r\n    @GetMapping(path = \"{student}/{id}\")\r\n    @PreAuthorize(\"hasRole('TEACHER') or hasRole('STUDENT')\")\r\n    public List<Report> getReportByStudentId(@PathVariable(\"id\") String id){\r\n        return reportService.findReportByStudentId(id);\r\n    }\r\n\r\n\r\n    @DeleteMapping(path = \"{id}\")\r\n    @PreAuthorize(\"hasRole('STUDENT')\")\r\n    public int deleteReportById(@PathVariable(\"id\") String id){\r\n        return reportService.deleteReportById(id);\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/example/studentportal/api/ReportController.java b/src/main/java/com/example/studentportal/api/ReportController.java
+--- a/src/main/java/com/example/studentportal/api/ReportController.java	
++++ b/src/main/java/com/example/studentportal/api/ReportController.java	
+@@ -4,6 +4,7 @@
+ import com.example.studentportal.model.Report;
+ import com.example.studentportal.service.ReportService;
+ import org.springframework.beans.factory.annotation.Autowired;
++import org.springframework.http.MediaType;
+ import org.springframework.lang.NonNull;
+ import org.springframework.security.access.prepost.PreAuthorize;
+ import org.springframework.web.bind.annotation.*;
+@@ -24,14 +25,15 @@
+ 
+     @PostMapping
+     @PreAuthorize("hasRole('STUDENT')")
+-    public int addReport(@ModelAttribute(value = "file") MultipartFile file,@ModelAttribute(value = "report") Report r){
+-        try {
+-            System.out.println(r.getReportDate());
+-            return reportService.addReport(file,r);
+-        } catch (IOException e) {
+-            e.printStackTrace();
+-            return 0;
+-        }
++    public int addReport(@ModelAttribute(value = "file") MultipartFile file,@ModelAttribute("report") String r){
++//        try {
++            System.out.println(r);
++//            return reportService.addReport(file,r);
++//        } catch (IOException e) {
++//            e.printStackTrace();
++//            return 0;
++//        }
++        return 0;
+     }
+ 
+     @GetMapping(path = "{id}")

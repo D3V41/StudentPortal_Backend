@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9d7f6fa-841a-4088-9033-10f724546908" name="Default Changelist" comment="Deval 23-3" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1npSynPQIbvynGsFBlAEOwJpaTU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-project/studentportal" />
+  </component>
+  <component name="RunManager">
+    <configuration name="StudentportalApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.studentportal.StudentportalApplication" />
+      <module name="studentportal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.studentportal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StudentportalApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9d7f6fa-841a-4088-9033-10f724546908" name="Default Changelist" comment="" />
+      <created>1612085796335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612085796335</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Deval 22-2">
+      <created>1613986951076</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613986951076</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Deval 22-2">
+      <created>1613992202467</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613992202467</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Deval 22-2">
+      <created>1613994956421</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613994956421</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Deval 23-2">
+      <created>1614068608838</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614068608838</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Deval 23-2">
+      <created>1614074980648</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614074980648</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Deval 23-2">
+      <created>1614078442645</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614078442645</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Deval 24-2">
+      <created>1614161470189</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614161470189</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Deval 24-2">
+      <created>1614194351245</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614194351245</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Deval 25-2">
+      <created>1614194941254</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614194941254</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Deval 25-2">
+      <created>1614196831735</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614196831735</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Deval 25-2">
+      <created>1614237444837</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614237444837</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Deval 25-2">
+      <created>1615995051992</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615995051992</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Deval 23-3">
+      <created>1616483373755</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616483373755</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Deval 23-3">
+      <created>1616492362776</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1616492362776</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Deval 22-2" />
+    <MESSAGE value="Deval 23-2" />
+    <MESSAGE value="Deval 24-2" />
+    <MESSAGE value="Deval 25-2" />
+    <MESSAGE value="Deval 23-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deval 23-3" />
+  </component>
+</project>
